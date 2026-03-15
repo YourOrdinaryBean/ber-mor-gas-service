@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Ber-Mor Gas Service"
+version = "1.0.0"
+id = "artifacts/ber-mor-gas"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 25989
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/ber-mor-gas run dev"
+
+[services.env]
+PORT = "25989"
+BASE_PATH = "/"
+
+[services.production]
+build = ["pnpm", "--filter", "@workspace/ber-mor-gas", "run", "build"]
+publicDir = "artifacts/ber-mor-gas/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"

@@ -1,0 +1,18 @@
+packages:
+  "framer-motion": "Scroll animations and page transitions for a premium feel"
+  "react-hook-form": "Form state management for the contact form"
+  "@hookform/resolvers": "Zod validation integration for react-hook-form"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to efficiently merge Tailwind CSS classes"
+
+images:
+  - path: "artifacts/ber-mor-gas/public/images/hero-hvac.png"
+    description: "A modern, clean, well-lit HVAC unit installation in a pristine home basement. Professional photography, bright, trustworthy, highly polished corporate style."
+    aspect_ratio: "16:9"
+  - path: "artifacts/ber-mor-gas/public/images/about-team.png"
+    description: "A friendly, professional HVAC technician in a clean navy blue uniform holding a clipboard, standing confidently in front of a white service van. Bright, corporate, trustworthy."
+    aspect_ratio: "4:3"
+
+notes:
+  - The contact form is a static implementation (no backend) that simulates a network request and shows a success message.
+  - The site is structured as a premium single-page landing site with smooth scrolling anchor links, ideal for local service businesses.
