@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Clock } from "lucide-react";
 
 export function Footer() {
   return (
@@ -38,10 +38,6 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary-foreground shrink-0" />
                 <a href="tel:3153394812" className="text-sm hover:text-white transition-colors">(315) 339-4812</a>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-primary-foreground shrink-0" />
-                <a href="mailto:bermorgasservice@yahoo.com" className="text-sm hover:text-white transition-colors break-all">bermorgasservice@yahoo.com</a>
               </li>
             </ul>
           </div>

@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Loader2, CheckCircle2 } from "lucide-react";
+import { MapPin, Phone, Loader2, CheckCircle2 } from "lucide-react";
 import { contactSchema, type ContactForm, useContact } from "@/hooks/use-contact";
 import { cn } from "@/lib/utils";
 
@@ -75,17 +75,6 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center shrink-0">
-                  <Mail className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <p className="text-red-200 text-sm font-medium mb-1">Email Us</p>
-                  <a href="mailto:bermorgasservice@yahoo.com" className="text-lg font-medium hover:text-red-100 transition-colors break-all">
-                    bermorgasservice<br/>@yahoo.com
-                  </a>
-                </div>
-              </div>
             </div>
           </motion.div>
 
