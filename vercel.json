@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm --filter @workspace/ber-mor-gas build",
+  "outputDirectory": "artifacts/ber-mor-gas/dist/public",
+  "framework": "vite"
+}
