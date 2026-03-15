@@ -18,7 +18,7 @@ export function Hero() {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="max-w-2xl"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-primary font-semibold text-sm mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-50 border border-red-100 text-primary font-semibold text-sm mb-6">
               <ShieldCheck className="w-4 h-4" />
               Licensed & Insured HVAC Experts
             </div>

@@ -55,8 +55,8 @@ export function Contact() {
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-blue-200 text-sm font-medium mb-1">Call Us 24/7</p>
-                  <a href="tel:3153394812" className="text-xl font-bold hover:text-blue-100 transition-colors">
+                  <p className="text-red-200 text-sm font-medium mb-1">Call Us 24/7</p>
+                  <a href="tel:3153394812" className="text-xl font-bold hover:text-red-100 transition-colors">
                     (315) 339-4812
                   </a>
                 </div>
@@ -67,7 +67,7 @@ export function Contact() {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-blue-200 text-sm font-medium mb-1">Our Location</p>
+                  <p className="text-red-200 text-sm font-medium mb-1">Our Location</p>
                   <p className="text-lg font-medium">
                     6752 Rome-Westmoreland Rd<br />
                     Rome, NY 13440
@@ -80,8 +80,8 @@ export function Contact() {
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-blue-200 text-sm font-medium mb-1">Email Us</p>
-                  <a href="mailto:bermorgasservice@yahoo.com" className="text-lg font-medium hover:text-blue-100 transition-colors break-all">
+                  <p className="text-red-200 text-sm font-medium mb-1">Email Us</p>
+                  <a href="mailto:bermorgasservice@yahoo.com" className="text-lg font-medium hover:text-red-100 transition-colors break-all">
                     bermorgasservice<br/>@yahoo.com
                   </a>
                 </div>

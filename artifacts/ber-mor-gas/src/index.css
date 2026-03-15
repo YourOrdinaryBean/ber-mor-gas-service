@@ -39,35 +39,24 @@
 }
 
 :root {
-  /* Clean White/Gray/Navy Palette */
-  --background: 0 0% 100%;
-  --foreground: 222 47% 11%;
-  
-  /* Trustworthy Navy Blue */
-  --primary: 215 100% 30%;
-  --primary-foreground: 0 0% 100%;
-  
-  /* Light Gray for contrasting sections */
-  --secondary: 210 40% 96%;
-  --secondary-foreground: 222 47% 11%;
-  
-  /* Soft grays for text */
-  --muted: 210 40% 96%;
-  --muted-foreground: 215 16% 47%;
-  
-  /* Slightly brighter blue for accents/hovers */
-  --accent: 215 90% 40%;
-  --accent-foreground: 0 0% 100%;
+  --background: 0 0% 100%;           /* white */
+  --foreground: 0 0% 8%;             /* near black */
+  --primary: 0 79% 40%;              /* bold red (matching logo's Ber-Mor red) */
+  --primary-foreground: 0 0% 100%;   /* white text on red */
+  --secondary: 0 0% 96%;             /* very light warm gray */
+  --secondary-foreground: 0 0% 10%;  /* near black */
+  --muted: 0 0% 94%;                 /* light gray */
+  --muted-foreground: 0 0% 40%;      /* medium gray */
+  --accent: 0 0% 10%;                /* near black for accents */
+  --accent-foreground: 0 0% 100%;    /* white */
+  --border: 0 0% 88%;
+  --input: 0 0% 88%;
+  --ring: 0 79% 40%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 8%;
   
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  
-  --border: 214 32% 91%;
-  --input: 214 32% 91%;
-  --ring: 215 100% 30%;
-  
-  --card: 0 0% 100%;
-  --card-foreground: 222 47% 11%;
 }
 
 html {

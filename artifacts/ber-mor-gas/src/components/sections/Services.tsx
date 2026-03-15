@@ -13,8 +13,8 @@ const services = [
     title: "Air Conditioning",
     description: "Keep your home cool with professional AC installation, emergency repair, and seasonal tune-ups for maximum efficiency.",
     icon: Snowflake,
-    color: "text-blue-500",
-    bgColor: "bg-blue-50"
+    color: "text-red-500",
+    bgColor: "bg-red-50"
   },
   {
     title: "Duct Cleaning",

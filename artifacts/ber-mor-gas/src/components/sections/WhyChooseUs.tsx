@@ -32,7 +32,7 @@ export function WhyChooseUs() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-blue-200 font-bold tracking-wider uppercase text-sm mb-3">The Ber-Mor Difference</h2>
+          <h2 className="text-red-200 font-bold tracking-wider uppercase text-sm mb-3">The Ber-Mor Difference</h2>
           <h3 className="text-3xl md:text-4xl font-display font-bold text-white mb-6">
             Why Homeowners Choose Us
           </h3>
@@ -56,7 +56,7 @@ export function WhyChooseUs() {
                 <h4 className="text-xl font-bold text-white mb-3 font-display">
                   {reason.title}
                 </h4>
-                <p className="text-blue-100 leading-relaxed">
+                <p className="text-red-100 leading-relaxed">
                   {reason.description}
                 </p>
               </motion.div>
