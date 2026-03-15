@@ -43,13 +43,20 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="group flex flex-col cursor-pointer">
-            <span className="font-display font-extrabold text-2xl text-primary tracking-tight group-hover:text-accent transition-colors">
-              Ber-Mor Gas Service
-            </span>
-            <span className="text-xs font-medium text-muted-foreground uppercase tracking-widest hidden sm:block">
-              Your Trusted Home Comfort Experts
-            </span>
+          <Link href="/" className="group flex items-center gap-3 cursor-pointer">
+            <img
+              src={`${import.meta.env.BASE_URL}images/logo.png`}
+              alt="Ber-Mor Gas Service Logo"
+              className="h-12 w-auto object-contain"
+            />
+            <div className="hidden sm:flex flex-col">
+              <span className="font-display font-extrabold text-xl text-primary tracking-tight group-hover:text-accent transition-colors leading-tight">
+                Ber-Mor Gas Service
+              </span>
+              <span className="text-xs font-medium text-muted-foreground uppercase tracking-widest">
+                Your Trusted Home Comfort Experts
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}

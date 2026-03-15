@@ -23,8 +23,8 @@ export function About() {
           >
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl shadow-primary/10">
               <img 
-                src={`${import.meta.env.BASE_URL}images/about-team.png`}
-                alt="Ber-Mor Gas Service Team Technician" 
+                src={`${import.meta.env.BASE_URL}images/building.png`}
+                alt="Ber-Mor Gas Service - Our Location in Rome, NY" 
                 className="w-full h-full object-cover"
               />
             </div>
